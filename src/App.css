@@ -107,6 +107,26 @@ body, html {
 .deg45 { transform: rotate(45deg); cursor: pointer; }
 .degNeg45 { transform: rotate(-45deg); cursor: pointer; }
 
+/* Reset button styles for navigation */
+button.deg90,
+button.deg45,
+button.degNeg45 {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+}
+
+button.nav-arrow {
+  border: none;
+  font: inherit;
+}
+
+button.resume-backdrop {
+  background: none;
+  border: none;
+}
+
 /* Nav positioning */
 #about { left: var(--nav-about); }
 #resume { right: var(--nav-resume); }
@@ -201,8 +221,6 @@ a {
   height: 100%;
   box-sizing: border-box;
 }
-
-.hiddenPage { display: none; }
 
 .pageTitle {
   white-space: nowrap;

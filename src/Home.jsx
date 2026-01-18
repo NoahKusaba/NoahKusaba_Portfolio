@@ -45,9 +45,9 @@ function Home() {
           <div className="iText">&#123;outsideClick&#125;</div>
         </div>
         <div className="Flexbox">
-          <div className="deg90" id="about" onClick={() => setPage("aboutPage")}><div className="shake">ABOUT</div></div>
-          <div className="deg45" id="projects" onClick={() => setPage("projectsPage")}><div className="shake">PROJECTS</div></div>
-          <div className="deg90" id="resume" onClick={() => setPage("resumePage")}><div className="shake">RESUME</div></div>
+          <button type="button" className="deg90" id="about" onClick={() => setPage("aboutPage")}><span className="shake">ABOUT</span></button>
+          <button type="button" className="deg45" id="projects" onClick={() => setPage("projectsPage")}><span className="shake">PROJECTS</span></button>
+          <button type="button" className="deg90" id="resume" onClick={() => setPage("resumePage")}><span className="shake">RESUME</span></button>
         </div>
 
         {PageComponent && currentPage === "resumePage" ? (
@@ -61,11 +61,11 @@ function Home() {
         )}
 
         <div className='Flexbox'>
-          <div className="deg90" id="experience" onClick={() => setPage("experiencePage")}><div className="shake">EXPERIENCE</div></div>
-          <div id="c"><div className="shake">C</div></div>
+          <button type="button" className="deg90" id="experience" onClick={() => setPage("experiencePage")}><span className="shake">EXPERIENCE</span></button>
+          <div id="c"><span className="shake">C</span></div>
           <div id="stacked">
-            <div className="degNeg45" id="contact" onClick={() => setPage("contactPage")}><div className="shake">ONTACT</div></div>
-            <div className="deg45" id="connect" onClick={() => window.open("https://www.linkedin.com/in/noah-kusaba/")}><div className="shake">ONNECT</div></div>
+            <button type="button" className="degNeg45" id="contact" onClick={() => setPage("contactPage")}><span className="shake">ONTACT</span></button>
+            <button type="button" className="deg45" id="connect" onClick={() => window.open("https://www.linkedin.com/in/noah-kusaba/")}><span className="shake">ONNECT</span></button>
           </div>
         </div>
       </div>
