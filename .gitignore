@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+.pnp.js
+
+# Build
+dist/
+build/
+coverage/
+
+# Environment & local config
+.env
+.env.*
+*.local
+
+# Editor & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
+
+# Logs
+*.log

@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Fetch Rewards | Senior Software Engineer",
+    "imageID": "fetch",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=fetchrewards.com&sz=128",
+    "list": [
+      "Architected DataHub governance platform with automated lineage crawlers across 40,000+ assets",
+      "Built enterprise internal developer platform delivering $1.5M annual cost savings",
+      "Developed distributed MLOps backend with MCP context for high-throughput data science evals",
+      "Profiled and optimized Kafka streaming, reducing monthly costs by $130K"
+    ]
+  },
+  {
+    "title": "Shift4 Payments | Senior Data Engineer",
+    "imageID": "shift4",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=shift4.com&sz=128",
+    "list": [
+      "Designed event-driven ETL architecture on AWS for real-time financial analytics",
+      "Achieved 96% CPU cost reduction and 1500% throughput improvement",
+      "Led database migration from MS SQL Server to Redshift with DBT Cloud modernization"
+    ]
+  },
+  {
+    "title": "Bear Cognition | Lead Software Engineer",
+    "imageID": "bearcog",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=bearcognition.com&sz=128",
+    "list": [
+      "Led redevelopment of data pipelines, reducing storage costs 50% and compute costs 60%",
+      "Delivered custom data integrations for analytics platform clients",
+      "Technologies: AWS, Prefect, Kubernetes, Snowflake, GraphQL"
+    ]
+  },
+  {
+    "title": "Overtone AI | Data Engineer Consultant",
+    "imageID": "overtone",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=overtone.ai&sz=128",
+    "list": [
+      "Led MLOps platform development for audio news sentiment analytics",
+      "Technologies: Python, SQL, Docker, BigQuery, Cloud Run"
+    ]
+  },
+  {
+    "title": "Green Pastures | Lead Software Engineer",
+    "imageID": "pastures",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=greenpastures.jp&sz=128",
+    "list": [
+      "Developed supply chain management platform reducing logistics costs by 30%",
+      "Technologies: React, Node.js, MongoDB, Flask, Go, AWS ECS"
+    ]
+  }
+]

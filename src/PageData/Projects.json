@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Flower Classification Neural Network",
+    "imageID": "flowers",
+    "list": [
+      "Deep learning model achieving 96% accuracy using PyTorch",
+      "Transfer learning, CutMix augmentation, progressive training, ensemble modeling"
+    ]
+  },
+  {
+    "title": "C Compiler in Rust",
+    "imageID": "dark",
+    "list": [
+      "Compiler translating C source to ARM64 assembly",
+      "Register allocation, stack frame management, Apple Silicon compatible"
+    ]
+  },
+  {
+    "title": "MMA Maps Event Dashboard",
+    "imageID": "mellow",
+    "list": [
+      "Full-stack app tracking global combat sports events with interactive map",
+      "React, PostgreSQL, Flask, Selenium, Airflow, AWS EC2"
+    ]
+  },
+  {
+    "title": "Customer Cohort Analytics",
+    "imageID": "dark",
+    "list": [
+      "Data warehouse analyzing customer retention patterns through lifecycle",
+      "Snowflake, SQL, DBT Core, Jinja templating"
+    ]
+  }
+]
